@@ -1,3 +1,3 @@
 # file-server
-##_ **1. Installing ZFS**_
+## _**1. Installing ZFS**_
 sudo apt install zfsutils-linux
