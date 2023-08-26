@@ -25,7 +25,8 @@ ata-INTEL_####A2#160G##C_################## -> ../../sdb
 ```sudo zfs set compression=lz4 mypool```
 ```sudo zfs set atime=off myzpool```
 
-Add Cache Drive
+**Add Cache Drive**
+
 ```sudo zpool add myzpool cache 'ssd device name'```
 
 
