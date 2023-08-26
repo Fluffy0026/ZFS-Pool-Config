@@ -1,11 +1,11 @@
 # ZFS Pool Configuration
-## _**1. Installing ZFS**_
+## _Installing ZFS**_
 ```sudo apt install zfsutils-linux```
 
-## _**3. Creating a ZFS Pool**_
+## _**Creating a ZFS Pool**_
 Choosing Drives to Pool
 
-```sudo fdisk -l```
+```lsblk```
 
 ```ls -l /dev/disk/by-id/```
 ### Creating a Pool
@@ -14,7 +14,8 @@ There are two types of simple storage pools we can create. A striped pool , also
 To create a striped pool, we run:
 
 ```
-When making pool use the ATA identifier not /dev/sda or anything else
+When making pool use the ATA identifier not /dev/sda
+
 Example:
 ata-INTEL_####A2#160G##C_################## -> ../../sdb
 ```
