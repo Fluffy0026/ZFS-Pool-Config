@@ -1,8 +1,8 @@
 # ZFS Pool Configuration
-## _Installing ZFS**_
+## _Installing ZFS_
 ```sudo apt install zfsutils-linux```
 
-## _**Creating a ZFS Pool**_
+## _Creating a ZFS Pool_
 Choosing Drives to Pool
 
 ```lsblk```
