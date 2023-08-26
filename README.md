@@ -1,4 +1,4 @@
-# file-server
+# ZFS Pool Configuration
 ## _**1. Installing ZFS**_
 ```sudo apt install zfsutils-linux```
 
